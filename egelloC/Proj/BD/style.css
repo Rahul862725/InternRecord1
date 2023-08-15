@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  margin-top: -100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 400px;
+}
+
+.name {
+  font-size: 80px;
+  color: #ff4081;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* New styles for floating colors */
+.floating-colors {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: float 10s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100vw, 100vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* New styles for rotating stars */
+.rotating-stars {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* New styles for confetti */
+@keyframes confetti-fall {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100vh);
+  }
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ff4081;
+  border-radius: 50%;
+  animation: confetti-fall 4s linear infinite;
+}

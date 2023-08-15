@@ -1,0 +1,21 @@
+.nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 15%;
+    background-image: url('../images/bgim.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list {
+    margin: 20px;
+    color: white;
+}
+/* .left:hover {
+    margin: 20px;
+    color: Red;
+    font-size: large;
+} */

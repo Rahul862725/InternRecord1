@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 8%;
+    width: 100%;
+    background-image: url('../images/bgim.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list {
+    margin: 20px;
+    color: white;
+    display: flex;
+    width: 12%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+ 
+.link:hover {
+    font-size: 28px;
+}
+/* .left:hover {
+    margin: 20px;
+    color: Red;
+    font-size: large;
+} */

@@ -1,0 +1,9 @@
+a
+Hello to all
+d
+e
+:q
+
+:q
+
+
